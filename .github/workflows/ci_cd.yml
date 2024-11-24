@@ -49,7 +49,7 @@ jobs:
       - name: Deploy locally
         shell: pwsh
         run: |
-          $destination = 'C:\Users\Sowmyasree\Documents\deployment'
+          $destination = 'C:\Users\jesli\OneDrive\Documents'
           
           # Ensure the destination directory exists
           if (!(Test-Path -Path $destination)) {
